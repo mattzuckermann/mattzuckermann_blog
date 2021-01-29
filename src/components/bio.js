@@ -53,7 +53,7 @@ const Bio = () => {
             target="_blank"
             href={`https://twitter.com/${social?.twitter || ``}`}
           >
-            You should follow them on Twitter
+            Follow him on Twitter!
           </a>
         </p>
       )}

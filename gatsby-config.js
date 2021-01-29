@@ -3,15 +3,16 @@ module.exports = {
     title: `Personal Blog`,
     author: {
       name: `Matt Zuckermann`,
-      summary: `who lives and works in the San Francisco Bay Area building many websites.`,
+      summary: `who lives and works in the San Francisco Bay Area problem solving, building web applications, and challenging himself to learn more everyday.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
+    description: `A blog created and maintained by Matt Zuckermann.`,
     siteUrl: `https://blog.mattzuckermann/dev`,
     social: {
       twitter: `mattzuckermann`,
     },
   },
   plugins: [
+    "gatsby-plugin-postcss",
     {
       resolve: `gatsby-source-filesystem`,
       options: {
